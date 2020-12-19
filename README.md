@@ -1,27 +1,37 @@
-# DiceRoll
+# DiceRoll Task
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+### Requirements
 
-## Development server
+    - Write the dice rolling game which will work in the browser as a single page application.
+    - Use whatever tech you want.
+    - Commit your changesets in to the following repository please https://github.com/anhasce/dice-roll.git
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### Game
 
-## Code scaffolding
+    Two players roll the dice. Based on the result 1 point goes to the winner.
+    The winner's dice weight (eg. 6, 3, 5, etc.) adds to the winner's basket on the scale.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Functional
 
-## Build
+    - Have a button to roll the dices of the players.
+    - Have a button to roll the dices in every second.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+#### UI
 
-## Running unit tests
+    - Draw dice rolling process
+    - Draw points dashboard
+    - Scale with 2 baskets on it (player1 and player2)․ The scale tilted to the heavy side.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Getting started
 
-## Running end-to-end tests
+1. Go to projects folder and install dependencies:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```bash
+yarn
+```
 
-## Further help
+2. Launch development server, and open `localhost:4200` in your browser:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ng serve --hmr -o
+```
