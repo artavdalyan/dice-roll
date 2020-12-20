@@ -1,5 +1,8 @@
 # DiceRoll Task
 
+
+![alt text](https://prnt.sc/w6fp29)
+
 ### Requirements
 
     - Write the dice rolling game which will work in the browser as a single page application.
@@ -35,3 +38,4 @@ yarn
 ```bash
 ng serve --hmr -o
 ```
+
