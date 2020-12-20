@@ -3,7 +3,7 @@ import { random } from 'lodash-es';
 import { asyncScheduler, Subscription, timer } from 'rxjs';
 import { tap } from 'rxjs/operators';
 
-import { Side } from './classe/side';
+import { Side } from './classes/side';
 import { sides } from './components/dice/dice.component';
 
 @Component({

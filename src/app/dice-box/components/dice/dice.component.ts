@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
-import { Side } from '../../classe/side';
+import { Side } from '../../classes/side';
 
 export const sides = [
   new Side(0, 0, 75),
