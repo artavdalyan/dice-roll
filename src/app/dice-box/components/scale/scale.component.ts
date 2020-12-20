@@ -8,6 +8,6 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 })
 export class ScaleComponent {
   Math = Math;
-  @Input() die1 = 5;
-  @Input() die2 = 5;
+  @Input() die1 = 0;
+  @Input() die2 = 0;
 }
