@@ -1,5 +1,7 @@
 # DiceRoll Task
 
+![picture](src/assets/screen.png)
+
 ### Requirements
 
     - Write the dice rolling game which will work in the browser as a single page application.
