@@ -1,5 +1,5 @@
 :host {
-  height: 400px;
+  height: 260px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,14 +10,14 @@
   perspective-origin: 50% 100%;
   position: relative;
 }
-
 .cube {
   position: relative;
   width: 150px;
   height: 150px;
   transform-style: preserve-3d;
-  transform: rotateY(-45deg) rotateX(-45deg);
-  transition: 800ms ease-out;
+  &.rolling {
+    transition: 400ms ease-in;
+  }
   > div {
     border: 1px solid rgb(44, 44, 44);
     position: absolute;
@@ -26,27 +26,27 @@
     height: 150px;
     &:nth-child(1) {
       transform: translateZ(75px);
-      background-image: url(../../assets/dice/dice-1.svg);
+      background-image: url(../../../../assets/dice/dice-1.svg);
     }
     &:nth-child(2) {
       transform: rotateX(180deg) translateZ(75px);
-      background-image: url(../../assets/dice/dice-2.svg);
+      background-image: url(../../../../assets/dice/dice-2.svg);
     }
     &:nth-child(3) {
       transform: rotateY(90deg) translateZ(75px);
-      background-image: url(../../assets/dice/dice-3.svg);
+      background-image: url(../../../../assets/dice/dice-3.svg);
     }
     &:nth-child(4) {
       transform: rotateY(-90deg) translateZ(75px);
-      background-image: url(../../assets/dice/dice-4.svg);
+      background-image: url(../../../../assets/dice/dice-4.svg);
     }
     &:nth-child(5) {
       transform: rotateX(90deg) translateZ(75px);
-      background-image: url(../../assets/dice/dice-5.svg);
+      background-image: url(../../../../assets/dice/dice-5.svg);
     }
     &:nth-child(6) {
       transform: rotateX(-90deg) translateZ(75px);
-      background-image: url(../../assets/dice/dice-6.svg);
+      background-image: url(../../../../assets/dice/dice-6.svg);
     }
   }
 }

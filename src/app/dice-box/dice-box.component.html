@@ -1,0 +1,26 @@
+<h1 class="gameTitle">Dice Roll Game</h1>
+<div class="box--wrapper">
+  <div class="box">
+    <app-dice [isRolling]="isRolling" [side]="side1"></app-dice>
+    <app-dice [isRolling]="isRolling" [side]="side2"></app-dice>
+  </div>
+  <div class="buttons">
+    <button (click)="unsubscribeTimer(); rollDice()">Roll</button>
+    <button (click)="rollEveryOneSecond()">Roll every second</button>
+  </div>
+</div>
+<div class="dashboard">
+  <div class="scaleBalance">
+    <app-scale [die1]="die1" [die2]="die2"></app-scale>
+  </div>
+  <div class="table">
+    <div class="player">
+      Player 1
+      <span [innerText]="point1"></span>
+    </div>
+    <div class="player">
+      Player 2
+      <span [innerText]="point1"> </span>
+    </div>
+  </div>
+</div>

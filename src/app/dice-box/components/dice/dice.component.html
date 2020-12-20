@@ -1,7 +1,8 @@
 <div class="dice">
   <div
     class="cube"
-    [style.transform]="'rotateX(' + side.x + 'deg)' + 'rotateY(' + side.y + 'deg)'"
+    [class.rolling]="isRolling"
+    [style.transform]="'rotateX(' + _side?.x + 'deg)' + 'rotateY(' + _side?.y + 'deg)'"
   >
     <!--Front-->
     <div></div>

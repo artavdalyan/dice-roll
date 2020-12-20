@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "dice-roll"
+  "defaultProject": "dice-roll",
+  "cli": {
+    "analytics": "15779ded-38cc-479d-a579-aeeed2ddf354"
+  }
 }
