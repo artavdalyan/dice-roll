@@ -6,7 +6,6 @@
 
     - Write the dice rolling game which will work in the browser as a single page application.
     - Use whatever tech you want.
-    - Commit your changesets in to the following repository please https://github.com/anhasce/dice-roll.git
 
 #### Game
 
